@@ -8,7 +8,7 @@ Write a greeter function that will display
 'Hello World' to the console.
 */
 
-
+console.log('Hello World!')
 
 
 /* 2.
@@ -21,6 +21,7 @@ divide(9, 9) => 18
 
 */
 
+divide(8, 8 => 16)
 
 
 
@@ -34,7 +35,7 @@ divide(9, 9) => 0
 
 */
 
-
+divide(8, 8) => 0
 
 
 /* 4.
@@ -61,7 +62,7 @@ multiply(9, 9) => 81
 
 */
 
-
+multiply(8, 8) => 64
 
 
 
@@ -75,6 +76,22 @@ yearsToDays(9) => 3285
 
 */
 
+yearsToDays(8) => 2920
+
+
+/* 7.
+Write a function that will return the first element
+in a given array.
+
+
+Example:
+firstElement([0,1,2,3]) => 0
+yearsToDays(['hello', 'world']) => 'hello'
+
+*/
+
+firstElement([4,5,6,7]) => 4
+
 
 
 
@@ -89,23 +106,7 @@ yearsToDays(['hello', 'world']) => 'hello'
 
 */
 
-
-
-
-
-
-/* 7.
-Write a function that will return the first element
-in a given array.
-
-
-Example:
-firstElement([0,1,2,3]) => 0
-yearsToDays(['hello', 'world']) => 'hello'
-
-*/
-
-
+firstElement([8,9,10,11]) => 8
 
 
 
@@ -121,7 +122,7 @@ minToSec(1) => 60
 
 */
 
-
+minToSec(80) => 4800
 
 
 
@@ -138,7 +139,7 @@ secToHours(1800) => 0.5
 
 */
 
-
+secToHours(8600) => 2.5
 
 
 
@@ -154,3 +155,5 @@ remainder(5, 2) => 1
 remainder(10, 7) => 0.5
 
 */
+
+remainder(8, 3) => 0.375
